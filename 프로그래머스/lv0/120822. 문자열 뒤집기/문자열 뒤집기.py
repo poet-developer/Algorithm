@@ -1,2 +1,3 @@
 def solution(my_string):
-    return my_string[::-1]
+    # 거꾸로 뒤집기
+     return ''.join(list(reversed(my_string)))
